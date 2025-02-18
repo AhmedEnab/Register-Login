@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal page">
+    <meta name="keyword" content=" Bookmark ">
+    <title>Register</title>
+    <!-- font-family:"Playfair Display", serif; -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <!-- Main Template Bootstrap File -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- Main Template Media Query File -->
+    <link rel="stylesheet" href="./css/media.css">
+    <!-- Main Template CSS File -->
+    <link rel="stylesheet" href="./css/register.css">
+    <!-- Favicon -->
+    <link rel="icon" href="./images/badge.png">
+
+</head>
+
+<body>
+    <div class="register">
+        <!-------------------------------------------------- heading  ----------------------------------------------->
+        <div class="container w-75 p-5">
+            <div class="top w-100 d-flex justify-content-center  pt-4 pb-5 ">
+                <h1>Register</h1>
+            </div>
+            <div class="message  m-auto w-50  fw-bolder rounded-5 text-center text-danger">
+
+            </div>
+            <!---------------------------------------------- Data Input ----------------------------------------------->
+            <div class="d-flex flex-column  align-items-center py-4 ">
+                <!--------------------------------- Name ---------------------------------------->
+                <div class=" mb-4 w-100  ">
+                    <label for="name" class=" fw-bold fs-5 ">Name</label>
+                    <input id="name" type="text" class="form-control name">
+                </div>
+                <!--------------------------------- Email ---------------------------------------->
+                <div class=" mb-4 w-100  ">
+                    <label for="email" class=" fw-bold fs-5 ">Email</label>
+                    <input id="email" type="text" class="form-control email">
+                </div>
+                <!------------------------------ Password -------------------------------------->
+                <div class=" mb-4 w-100">
+                    <label for="password" class="fw-bold fs-5  ">Password</label>
+                    <input type="password" class="form-control" id="password">
+                </div>
+                <div class=" mb-4 w-100">
+                    <label for="con-password" class="fw-bold fs-5  ">Confirm Password</label>
+                    <input type="password" class="form-control" id="conPassword">
+                </div>
+                <!------------------------------ Buttons -------------------------------------->
+                <div class=" w-100 d-flex justify-content-between align-items-center buttons">
+                    <button type="button" class="btn btn-outline-dark sign-btn">Sign In</button>
+                    <div class="register text-center">
+                        <h5 class="mb-3">Already Have Account </h5>
+                        <button type="submit" class="btn btn-outline-dark log ">Login</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------------------------------------------- Js Files ---------------------------------------------------->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/register.js"></script>
+
+</body>
+
+</html>
