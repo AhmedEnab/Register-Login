@@ -108,6 +108,6 @@ signBtn.addEventListener("click", function () {
     getData();
 });
 logBtn.addEventListener("click", function () {
-    location.href = "../login.html";
+    location.href = "../index.html";
 
 });
